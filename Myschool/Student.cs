@@ -16,5 +16,11 @@ namespace Myschool
             _id = ID;
             _fullname = FullName;
         }
+
+        public static Student[] Create(uint number_student)
+        {
+            Student[] result = new Student[number_student];
+            return result;
+        }
     }
 }
